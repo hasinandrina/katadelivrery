@@ -67,6 +67,7 @@ public class DelivreryControleur {
 	/**
 	 * Sauvegarde de la commande d'un client en fonction des données renseignés dans
 	 * l'objet commande
+	 * Lors d'une commande, on renseigne le Commande.client Commande.modeLivraison, Commande.jour, Commande.creneauHoraire
 	 * 
 	 * @param commande
 	 * @return commande sauvegardé contenant l'id dans la base
